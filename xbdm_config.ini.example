@@ -1,0 +1,19 @@
+# xbdm_gdb_bridge Configuration
+# Copy this file to 'xbdm_config.ini' and edit with your settings
+# Or run setup.ps1 to configure automatically
+
+[connection]
+# IP address of your Xbox or xemu instance
+# Find this in xemu: Machine > Settings > Network, or in Xbox dashboard
+xbox_ip = 192.168.1.77
+
+# XBDM port (default is 731, rarely needs changing)
+xbdm_port = 731
+
+[gdb]
+# Default port for GDB server when using 'gdb' command
+default_port = 1999
+
+[options]
+# Logging verbosity (0 = normal, 8 = very verbose)
+verbosity = 0

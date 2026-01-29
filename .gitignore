@@ -17,3 +17,17 @@ cmake-build*/
 
 # Prevent AI agents from including the nxdk when they ignore the AGENTS.md instruction
 nxdk/
+
+# Runtime/user config
+xbdm_config.ini
+*.pid
+.relay.pid
+
+# Claude Code
+.claude/
+
+# Backup files
+*.bak
+
+# Binary (users build or download)
+xbdm_gdb_bridge_linux
